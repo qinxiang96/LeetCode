@@ -22,7 +22,8 @@ public class ByReflect {
         Class<?> byReflect1 = Class.forName("com.flora.test.newInstance.ByReflect");//类的路径
         ByReflect o1 = (ByReflect) byReflect1.newInstance();
         o1.add(3,3);
-        //类名.class 如上o
+        //类名.class
+        Class<ByReflect> byReflect3 = ByReflect.class;
         //对象名.getClass()
         Class<? extends ByReflect> byReflect2 = o1.getClass();
         ByReflect o2 = byReflect2.newInstance();
