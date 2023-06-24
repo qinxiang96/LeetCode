@@ -6,7 +6,7 @@ import java.util.*;
  * @Author qinxiang
  * @Date 2023/6/18-下午6:34
  */
-public class DelLest {
+public class DelLeast {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while(scanner.hasNext()){

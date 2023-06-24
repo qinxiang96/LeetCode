@@ -1,4 +1,4 @@
-package com.flora.test.string;
+package com.flora.test.hw.string;
 
 import java.util.HashSet;
 import java.util.Iterator;
