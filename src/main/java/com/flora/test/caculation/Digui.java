@@ -1,5 +1,7 @@
 package com.flora.test.caculation;
 
+import java.util.HashSet;
+
 /**
  * @Author qinxiang
  * @Date 2023/6/27-下午10:11
@@ -20,7 +22,9 @@ package com.flora.test.caculation;
 public class Digui {
     public static void main(String[] args) {
         //System.out.println(squar2(10));
-        System.out.println(winner(new int[]{1, 5, 133,7}));
+        //System.out.println(winner(new int[]{1, 5, 133,7}));
+        HashSet<Object> set = new HashSet<>();
+        System.out.println(set.size());
     }
     public static boolean squar2(int n){
         // 判断特殊用例
